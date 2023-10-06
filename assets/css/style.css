@@ -1,0 +1,193 @@
+/* Your styles here */
+
+body {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+}
+
+main {
+  background-color: #e9edee;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-logos {
+  background-color: #222f3f;
+}
+
+.bg-navbars {
+  background-color: #364759;
+}
+
+.bg-logos img {
+  width: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+nav {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+nav ul li {
+  display: inline;
+  padding-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#first-block {
+  background-color: #f56600;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-inline: 25px;
+}
+
+#first-block a {
+  text-decoration: none;
+  color: white;
+}
+
+#second-block {
+  background-image: url(../images/bg-image.png);
+  color: white;
+  margin-top: 20px;
+  height: 195px;
+  margin-inline: 25px;
+  background-repeat: repeat;
+}
+
+#second-block div {
+  display: inline-block;
+  margin-block-start: 75px;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+#third-block {
+  background-color: white;
+  margin-top: 20px;
+  margin-inline: 25px;
+  margin-bottom: 15px;
+}
+
+#third-block h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+#third-block p {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#third-block p a {
+  font-weight: 700;
+  color: #0a5d61;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+.inline-container {
+  display: inline-block;
+  width: 270px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-inline: 15px;
+  margin-bottom: 15px;
+  box-shadow: 5px 8px 25px -2px rgba(0, 0, 0, 0.48);
+}
+
+#kindle {
+  background-image: url(../images/img_1.jpg);
+}
+
+#laptop {
+  background-image: url(../images/img_2.jpg);
+}
+
+#smartwatch {
+  background-image: url(../images/img_3.jpg);
+}
+
+#pets {
+  background-image: url(../images/img_4.jpg);
+}
+
+#fourth-block,
+#fifth-block {
+  margin-inline: 25px;
+}
+
+.block-images {
+  width: 100%;
+}
+
+#fourth-block h3,
+p {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#fourth-block h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+#fourth-block p a {
+  font-weight: 700;
+  color: #0a5d61;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+#fifth-block h3,
+p {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#fifth-block h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+#fifth-block p a {
+  font-weight: 700;
+  color: #0a5d61;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+.bg-navbars > a {
+  color: white;
+  font-size: 0.8em;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
